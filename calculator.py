@@ -39,6 +39,8 @@ elif(operator=='/'):
   div(a,b);
 elif(operator=='**'):
   exp(a,b);
-else:(operator=='%')
+elif(operator=='%'):
   rem(a,b);
+else:
+print('invalid')
 
