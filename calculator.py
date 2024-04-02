@@ -25,6 +25,9 @@ def div(a,b):
 def rem(a,b):
   E=a%b;
   print(E)
+def exp(a,b):
+  G=a**b;
+  print(G)
 #= -assign; == - compare
 if(operator=='+'):
   add(a,b);
@@ -34,6 +37,8 @@ elif(operator=='*'):
   mul(a,b);
 elif(operator=='/'):
   div(a,b);
+elif(operator=='**'):
+  exp(a,b);
 else:(operator=='%')
   rem(a,b);
 
